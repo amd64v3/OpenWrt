@@ -1005,8 +1005,8 @@ rm -rf feeds/packages/utils/vim
 cp -rf $GITHUB_WORKSPACE/general/vim feeds/packages/utils
 
 # python-packaging
-sed -i 's/PKG_VERSION:=.*/PKG_VERSION:=24.0/g' feeds/packages/lang/python/python-packaging/Makefile
-sed -i 's/PKG_HASH:=.*/PKG_HASH:=eb82c5e3e56209074766e6885bb04b8c38a0c015d0a30036ebe7ece34c9989e9/g' feeds/packages/lang/python/python-packaging/Makefile
+#sed -i 's/PKG_VERSION:=.*/PKG_VERSION:=24.0/g' feeds/packages/lang/python/python-packaging/Makefile
+#sed -i 's/PKG_HASH:=.*/PKG_HASH:=eb82c5e3e56209074766e6885bb04b8c38a0c015d0a30036ebe7ece34c9989e9/g' feeds/packages/lang/python/python-packaging/Makefile
 
 # python-click
 sed -i 's/PKG_VERSION:=.*/PKG_VERSION:=8.1.3/g' feeds/packages/lang/python/click/Makefile
