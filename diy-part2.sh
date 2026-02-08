@@ -1131,8 +1131,8 @@ curl -so files/root/.bashrc https://raw.githubusercontent.com/sbwml/r4s_build_sc
 # musl patch
 cp -fv $GITHUB_WORKSPACE/PATCH/001-elf.h-add-typedefs-for-Elf-_Relr.patch toolchain/musl/patches
 
-rm -rf feeds/packages/lang/python
-cp -rf $GITHUB_WORKSPACE/general/python feeds/packages/lang
+#rm -rf feeds/packages/lang/python
+#cp -rf $GITHUB_WORKSPACE/general/python feeds/packages/lang
 
 # lua5.4
 cp -rf $GITHUB_WORKSPACE/general/lua5.4 feeds/packages/lang
