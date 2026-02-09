@@ -382,7 +382,7 @@ cp -rf $GITHUB_WORKSPACE/general/php8 feeds/packages/lang
 
 # python-docker
 sed -i 's/PKG_VERSION:=.*/PKG_VERSION:=7.1.0/g' feeds/packages/lang/python/python-docker/Makefile
-sed -i 's/PKG_HASH:=.*/PKG_HASH:=eb82c5e3e56209074766e6885bb04b8c38a0c015d0a30036ebe7ece34c9989e9/g' feeds/packages/lang/python/python-docker/Makefile
+sed -i 's/PKG_HASH:=.*/PKG_HASH:=ad8c70e6e3f8926cb8a92619b832b4ea5299e2831c14284663184e200546fa6c/g' feeds/packages/lang/python/python-docker/Makefile
 #cp -f $GITHUB_WORKSPACE/general/python-docker/Makefile feeds/packages/lang/python/python-docker
 
 # coremark
